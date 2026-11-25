@@ -1,0 +1,16 @@
+test_division_error (test_api.APITests.test_division_error) ... ok
+test_frontend_served (test_api.APITests.test_frontend_served) ... ok
+test_invalid (test_api.APITests.test_invalid) ... ok
+test_operations (test_api.APITests.test_operations) ... ok
+test_add (test_calculator.CalculatorTests.test_add) ... ok
+test_average (test_calculator.CalculatorTests.test_average) ... ok
+test_average_empty (test_calculator.CalculatorTests.test_average_empty) ... ok
+test_divide (test_calculator.CalculatorTests.test_divide) ... ok
+test_divide_by_zero (test_calculator.CalculatorTests.test_divide_by_zero) ... ok
+test_multiply (test_calculator.CalculatorTests.test_multiply) ... ok
+test_subtract (test_calculator.CalculatorTests.test_subtract) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.032s
+
+OK
