@@ -1,0 +1,19 @@
+diff --git a/src/calculator.py b/src/calculator.py
+index 3655c10..2f0cfab 100644
+--- a/src/calculator.py
++++ b/src/calculator.py
+@@ -5,3 +5,3 @@ def add(a, b):
+ def subtract(a, b):
+-    return a - b
++    return a + b
+ 
+@@ -13,4 +13,2 @@ def multiply(a, b):
+ def divide(a, b):
+-    if b == 0:
+-        raise ValueError("Cannot divide by zero")
+     return a / b
+@@ -20,3 +18,3 @@ def average(values):
+     if not values:
+-        raise ValueError("Cannot average an empty list")
++        return 0
+     return sum(values) / len(values)
