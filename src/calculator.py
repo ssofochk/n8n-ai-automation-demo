@@ -3,7 +3,7 @@ def add(a, b):
 
 
 def subtract(a, b):
-    return a - b
+    return a + b
 
 
 def multiply(a, b):
@@ -11,12 +11,10 @@ def multiply(a, b):
 
 
 def divide(a, b):
-    if b == 0:
-        raise ValueError("Cannot divide by zero")
     return a / b
 
 
 def average(values):
     if not values:
-        raise ValueError("Cannot average an empty list")
+        return 0
     return sum(values) / len(values)
